@@ -4,6 +4,7 @@ function loaded(funct){document.addEventListener("DOMContentLoaded",funct);}
 
 loaded(init);
 function init(){
-    query("footer").remove();
-    query("#content-vw").prepend(create_div(html_breadcrumb));
+    // from js implementation to php only
+    ///query("footer").remove(); // see empty footer.php to remove footer
+    ///query("#content-vw").prepend(create_div(html_breadcrumb)); // replaced by php html filter
 }
