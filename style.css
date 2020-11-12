@@ -11,3 +11,16 @@
  Tags:         mods, dom, js, shortcode
  Text Domain:  wv-storefront-child
 */
+
+/* fixed position page header: */
+header{
+padding-bottom: 100px;
+}
+
+.home-page-header{
+width:100%;
+background-color:white;	
+position:fixed;
+z-index: 100;	
+} 
+/* :end */
